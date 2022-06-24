@@ -1,0 +1,43 @@
+.headerContainer{
+    background-color: black;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header{
+    /* background-color: blue; */
+    height: 50px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon{
+    height: 50px;
+}
+h1{
+    color: white;
+    font-weight: 700;
+    margin-left: 10px;
+}
+button{
+    background-color: gray;
+    border: none;
+    height: 35px;
+    width: 60px;
+    color: black;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+input{
+    height: 33px;
+    width: 220px;
+    background-color: whitesmoke;
+    border: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+

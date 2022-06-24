@@ -1,0 +1,57 @@
+.main{
+    background-color: rgba(0, 0, 0,0.5);
+    height: 500px;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    align-items: center;
+    justify-content: center;   
+    border-radius: 35px;
+}
+
+.tilecontainer{
+    /* background-color: rgba(0, 0, 0,0.5); */
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    align-items: center;
+    justify-content: center;   
+    border-radius: 35px;
+}
+
+.tile{
+    background-color: rgba(0, 0, 0,0.5);
+    height: 60px;
+    width: 60%;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding-left: 45px;
+    margin: 15px;
+    font-weight: 600;
+
+}
+.minmax{
+    display: flex;
+}
+.min , .max{
+    margin: 20px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.temp{
+    font-size: 85px;
+    font-weight: 800;
+    margin: 10px;
+}
+.city{
+    font-size: 50px;
+    font-weight: 700;
+}
+.tempicon{
+    height: 120px;
+   
+}
